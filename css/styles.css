@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: "regular";
+}
+
+container {
+    display: flex;
+    flex-direction:  column;
+    padding: 20px;
+}
+
+input, span{
+    margin: 10px 0;
+    font-family: "regular";
+}
+
+input {
+    height: 30px;
+    padding:0 10px;
+    font-size: 100%;
+}
+
+input[type=text] {
+    width: 300px;
+}
+
+input [type=number]{
+    width: 300px;
+    height: 300px;
+    background-color: #000;
+}
